@@ -1,0 +1,129 @@
+body { background-color: #1e1e1e;
+       margin-top: 0;
+       padding-top: 0;
+}
+main { margin-top: 0;
+}
+nav { margin-left: 15%;
+      margin-right: 15%;
+      margin-top: 0;
+      font-family: "Alef", sans-serif;
+      background-color: #777777;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      font-size: 22pt;
+      position: fixed;
+      width: 70%;
+}
+nav a { text-decoration: none;
+        color: #000000;
+        font-size: 24pt;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+a { text-decoration: none;
+    
+    
+}
+h1 { color: #FFFFFF;
+     text-align: center;
+     font-size: 28pt;
+     font-family: "Helvetica", sans-serif;
+     clear: left;
+     padding-top: 128px;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+h2 { color: #FFFFFF;
+     text-align: left;
+     font-size: 24pt;
+     font-family: "Helvetica", sans-serif;
+}
+img { float: left;
+      margin-left: 20px;
+}
+p { color: #FFFFFF;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16pt;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+}
+table {
+    border-spacing: 15px;
+    font-size: 14pt;
+
+}
+table td {
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid #DDDDDD;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 10px;
+}
+#logo { max-width: 40%;
+        max-height: 40%;
+        padding-right: 8px;
+        padding-bottom: 200px;
+}
+#hvt { font-size: 20pt;
+       font-weight: bold;
+       padding-top: 0;
+       margin-top: 0;
+       float: right;
+       padding-right: 20%;
+}
+#main {
+    padding-bottom: 20px;
+    text-align: left;
+    clear: left;
+    margin-left: 10%;
+}
+#right {
+    text-align: right;
+    clear: right;
+    margin-right: 13%;
+}
+@media only screen and (max-width: 1770px) {
+    #logo {
+        padding-bottom: 200px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    #logo {
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    nav { 
+        font-size: 20pt;
+          
+    }
+    nav a { 
+        font-size: 20pt;
+        
+    }
+    h1 {
+        font-size: 24pt;
+    }
+    h2{
+        font-size: 20pt;
+    }
+    p {
+        font-size: 14pt;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav { 
+        font-size: 18pt;
+          
+    }
+    nav a { 
+        font-size: 18pt;
+        
+    }
+}
