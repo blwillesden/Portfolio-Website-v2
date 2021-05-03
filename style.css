@@ -1,81 +1,152 @@
+html { 
+  background-color: #111C31;
+  margin-bottom: 0;
+}
 body { background-color: #1e1e1e;
-       margin-top: 0;
+       border-radius: 20px;
+       margin-top: 16px;
        padding-top: 0;
+       margin-left: 50px;
+       margin-right: 50px;
+       margin-bottom: 0;
+       min-height: 800px;
+       box-shadow: 3px 3px 3px #000000;
 }
 main { margin-top: 0;
 }
-nav { margin-left: 15%;
-      margin-right: 15%;
+#title {
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 15px;
+}
+nav { margin-left: 35%;
       margin-top: 0;
       font-family: "Alef", sans-serif;
       background-color: #777777;
-      padding-top: 15px;
-      padding-bottom: 15px;
       text-align: center;
-      font-size: 22pt;
+      padding-top: 15px;
+      padding-bottom: 14px;
+      font-size: 18pt;
       position: fixed;
-      width: 70%;
+      width: 50%;
+      clear: right;
 }
 nav a { text-decoration: none;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
         color: #000000;
-        font-size: 24pt;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 20pt;
+        padding-left: 20px;
+        padding-right: 20px;
 }
-a { text-decoration: none;
-    
-    
+#active {
+  background-color: #333333;
+  color: #CCCCCC;
+}
+a { 
+  text-decoration: none; 
+}
+a:hover {
+  background-color: #555555;
+}
+#latest {
+  text-decoration: underline;
+  color: #FFFFFF;
+  float: right;
+  margin-right: 4%;
+}
+#link {
+  text-decoration: underline;
+  color: #FFFFFF;
+  margin-right: 4%;
 }
 h1 { color: #FFFFFF;
      text-align: center;
      font-size: 28pt;
      font-family: "Helvetica", sans-serif;
      clear: left;
-     padding-top: 128px;
+     padding-left: 4%;
+     margin-right: 4%;
      margin-top: 0;
      margin-bottom: 0;
+}
+
+#heading {
+  font-size: 46pt;
 }
 h2 { color: #FFFFFF;
      text-align: left;
      font-size: 24pt;
      font-family: "Helvetica", sans-serif;
 }
-img { float: left;
-      margin-left: 20px;
+h3 {
+  color: #FFFFFF;
 }
-p { color: #FFFFFF;
-    font-family: "Helvetica", sans-serif;
-    font-size: 16pt;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 10px;
-}
-table {
-    border-spacing: 15px;
-    font-size: 14pt;
+h4 {
+  color: #FFFFFF;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
 
 }
-table td {
-    text-align: center;
+#recentdate {
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 14pt;
+  font-family: "Helvetica", sans-serif;
+  clear: left;
+  padding-left: 8%;
+  margin-right: 4%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-table, th, td {
-    border: 2px solid #DDDDDD;
-    border-collapse: collapse;
+img { float: right;
+      margin-right: 20px;
 }
-td, th {
-    padding: 10px;
+
+div {
+  float: left;
+  width: 40%;
+  margin-top: 65px;
 }
-#logo { max-width: 40%;
-        max-height: 40%;
-        padding-right: 8px;
-        padding-bottom: 200px;
+#headshot { 
+  height: 207px;
+  width: 160px;
+  padding-bottom: 15px;
 }
-#hvt { font-size: 20pt;
-       font-weight: bold;
-       padding-top: 0;
-       margin-top: 0;
-       float: right;
-       padding-right: 20%;
+#welcome {
+  display: inline-block;
+  margin-left: 10%;
+  min-width: 50%;
+  font-size: 16pt;
+}
+#about {
+  display: inline-block;
+  margin-left: 0;
+  width: 20%;
+}
+#projectnames {
+  display: inline-block;
+  margin-left: 8%;
+  padding-right: 5%;
+  width: 22%;
+  font-size: 16pt;
+  text-align: center;
+}
+#projectdesc {
+  display: inline-block;
+  margin-left: 0;
+  padding-right: 5%;
+  width: 40%;
+  font-size: 16pt;
+}
+#reflections {
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 65px;
+  width: 20%;
+  font-size: 16pt;
 }
 #main {
     padding-bottom: 20px;
@@ -86,44 +157,25 @@ td, th {
 #right {
     text-align: right;
     clear: right;
-    margin-right: 13%;
+    margin-right: 20px;
+    padding-right: 0;
 }
-@media only screen and (max-width: 1770px) {
-    #logo {
-        padding-bottom: 200px;
-    }
+#left {
+  text-align: left;
+  clear: left;
+  margin-left: 2%;
+  padding-left: 0;
 }
-@media only screen and (max-width: 1500px) {
-    #logo {
-        padding-bottom: 20px;
-    }
+#block {
+  display: inline-block;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 2px 2px 2px 2px;
+  width: 20%;
+  min-height: 30%;
+  margin-left: 16%;
+  margin-right: 0;
+  padding-left: 2%;
+  padding-right: 2%;
 }
-@media only screen and (max-width: 1024px) {
-    nav { 
-        font-size: 20pt;
-          
-    }
-    nav a { 
-        font-size: 20pt;
-        
-    }
-    h1 {
-        font-size: 24pt;
-    }
-    h2{
-        font-size: 20pt;
-    }
-    p {
-        font-size: 14pt;
-    }
-}
-@media only screen and (max-width: 768px) {
-    nav { 
-        font-size: 18pt;
-          
-    }
-    nav a { 
-        font-size: 18pt;
-        
-    }
-}
+
